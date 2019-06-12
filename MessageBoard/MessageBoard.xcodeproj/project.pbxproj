@@ -11,6 +11,9 @@
 		E62082E822B087550019D968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62082E622B087550019D968 /* Main.storyboard */; };
 		E62082EA22B087570019D968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62082E922B087570019D968 /* Assets.xcassets */; };
 		E62082ED22B087570019D968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62082EB22B087570019D968 /* LaunchScreen.storyboard */; };
+		E62082FA22B08A2F0019D968 /* MessageThreadsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62082F922B08A2F0019D968 /* MessageThreadsTableViewController.swift */; };
+		E62082FC22B08C470019D968 /* MessageThreadDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62082FB22B08C470019D968 /* MessageThreadDetailTableViewController.swift */; };
+		E62082FE22B08EA20019D968 /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62082FD22B08EA20019D968 /* MessageDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		E62082E922B087570019D968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E62082EC22B087570019D968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E62082EE22B087570019D968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E62082F922B08A2F0019D968 /* MessageThreadsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadsTableViewController.swift; sourceTree = "<group>"; };
+		E62082FB22B08C470019D968 /* MessageThreadDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadDetailTableViewController.swift; sourceTree = "<group>"; };
+		E62082FD22B08EA20019D968 /* MessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		E62082F822B087FD0019D968 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E62082F922B08A2F0019D968 /* MessageThreadsTableViewController.swift */,
+				E62082FB22B08C470019D968 /* MessageThreadDetailTableViewController.swift */,
+				E62082FD22B08EA20019D968 /* MessageDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -173,6 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62082E322B087550019D968 /* AppDelegate.swift in Sources */,
+				E62082FE22B08EA20019D968 /* MessageDetailViewController.swift in Sources */,
+				E62082FC22B08C470019D968 /* MessageThreadDetailTableViewController.swift in Sources */,
+				E62082FA22B08A2F0019D968 /* MessageThreadsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RV79Z7M4VT;
-				INFOPLIST_FILE = MessageBoard/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MessageBoard/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RV79Z7M4VT;
-				INFOPLIST_FILE = MessageBoard/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MessageBoard/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
